@@ -97,17 +97,5 @@ with open("test.json", 'w') as tj:
             temp = getdic(test_path)
             print(temp)
             json.dump(temp, tj, cls=NpEncoder)
-            print("Write done")
-            tj.close()
-
-# print(dic)
-# with open("test.json", 'w') as tj:
-#    json.dump(result_dic, tj)
-
-# img, xmin, ymin, xmax, ymax = search_returnPoint(img, template, template_size)
-# if img is None:
-#    print("None")
-# else:
-#    print("bbox:"+str(xmin)+" "+str(ymin)+" "+str(xmax)+" "+str(ymax))
-#    plt.figure()
-#    plt.imshow(img, animated=True)
+print("Write done")
+            
