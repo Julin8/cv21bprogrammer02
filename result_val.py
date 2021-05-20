@@ -91,8 +91,8 @@ with open("my_val_result.json", 'w') as fl:
             temp = getdic(image_path)
             print(temp)
             json.dump(temp, fl, cls=NpEncoder)
-            fl.close()
-            print("Write done")
+         
+            
 
     print("success")
 
